@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Our HTML5 Site</title>
+    <!--In HTML5 we just need to declare the rel and href-->
+    <link rel="stylesheet" href="css/0x03.css">
+    <!--In HTML5 we just need to declare src-->
+    <script src=js/global.js></script>
+</head>
+
+<body>
+    <header>
+        <h1>Registration form</h1>
+    </header>
+    <section>
+        <br>
+
+        Name: 
+        <input type="text" name="name" placeholder="Ex. George Brush">      <br><br>
+        Date of birth: 
+        <input type="date" name="bday">      <br><br>
+        Country: 
+        <input list="country" name="country" placeholder="Ex. Wakanda">   <br><br>
+        Phone Number: 
+        <input type="tel" name="phone_number" placeholder="(123) 456 7890">       <br><br>
+        Email: 
+        <input type="email" name="email" placeholder="example@email.com">     <br><br>
+        Website: 
+        <input type="url" name="url" placeholder="yourwebsite.com">       <br><br>
+
+        <datalist id="country">
+            <option value="India"></option>
+            <option value="United States"></option>
+            <option value="United Kingdom"></option>
+            <option value="Australia"></option>
+            <option value="France"></option>
+        </datalist>
+
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+
+h1{
+    font-size: 2cm;
+    color: white;
+}
+
+header{
+    width: 100%;
+    height: auto;
+    background-color: blue;
+}
+
+section{
+    width: 100%;
+    height: auto;
+    background-color:#666;
+    text-align: center;
+    color: white;
+}
+
+body{
+    margin: 40px;
+}
+
+#my_canvas{
+    background-color: #FFF;
+    border: #000 1px solid;
+}

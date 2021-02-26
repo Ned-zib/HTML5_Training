@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Our HTML5 Site</title>
+    <!--In HTML5 we just need to declare the rel and href-->
+    <link rel="stylesheet" href="css/0x04.css">
+    <!--In HTML5 we just need to declare src-->
+    <script src=js/global.js></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>Multimedia</h1>
+    </header>
+
+    <!--For all the followings you can add Autoplay or Loop-->
+
+    <section> <!--AUDIO-->
+        <br>
+
+        <h2>Audio</h2>
+
+        <audio autoplay="autoplay">
+            <!--Some browsers does not support some formats with this we avoid errors-->
+            <source src="assets/0x04/autoplay.mp3">
+            <source src="assets/0x04/autoplay.ogg">
+            <source src="assets/0x04/autoplay.wav">
+        </audio>
+
+        <audio controls>
+            <!--Some browsers does not support some formats with this we avoid errors-->
+            <source src="assets/0x04/gaia_song.mp3">
+            <source src="assets/0x04/gaia_song.ogg">
+            <source src="assets/0x04/gaia_song.wav">
+        </audio>
+        <p>A little song to honor North American indians. <br>
+            <a href="https://freesound.org/people/vumseplutten1709/sounds/208987/">Sound link</a>
+        </p>
+
+        <br>
+    </section>
+
+    <section> <!--VIDEO-->
+        <br>
+
+        <h2>Video</h2>
+
+        <video width="640" height="480" controls poster="assets/0x04/poster.png" >
+            <!--Some browsers does not support some formats with this we avoid errors-->
+            <source src="assets/0x04/DuckulaOp.mp4">
+            <source src="assets/0x04/DuckulaOp.ogg">
+            <source src="assets/0x04/DuckulaOp.webm"> 
+        </video>
+        <p>Duckula's Opening</p>
+        <br>
+    </section>
+
+</body>
+
+</html>

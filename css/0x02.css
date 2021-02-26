@@ -1,0 +1,29 @@
+
+h1{
+    font-size: 2cm;
+    color: white;
+}
+
+header{
+    width: 100%;
+    height: 4cm;
+    background-color: blue;
+}
+
+nav{
+    width: 100%;
+    height: 2.5cm;
+    background-color:turquoise;
+}
+
+section{
+    width: 100%;
+    height: 10cm;
+    background-color:tomato;
+}
+
+footer{
+    width: 100%;
+    height: 4cm;
+    background-color:violet;
+}
